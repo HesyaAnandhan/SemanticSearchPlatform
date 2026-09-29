@@ -1,0 +1,16 @@
+{
+  "name": "semantic-search-platform",
+  "version": "1.0.0",
+  "description": "Enterprise Neural Semantic Search Platform with Transformer Embeddings",
+  "scripts": {
+    "server": "npm --prefix server start",
+    "server:dev": "npm --prefix server dev",
+    "client": "npm --prefix client dev",
+    "build:client": "npm --prefix client build",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
